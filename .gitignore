@@ -1,0 +1,7 @@
+# Файлы сборки C++
+*.exe
+*.o
+*.out
+build/
+# Папки IDE
+.vscode/
