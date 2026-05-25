@@ -7,6 +7,6 @@ void showMenu() {
 }
 
 int main() {
-    std::cout << "Hello World" << std::endl;
+    showMenu(); // Вызов функции меню
     return 0;
 }
