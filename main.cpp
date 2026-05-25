@@ -1,5 +1,6 @@
 #include <iostream>
 
+// Функция для отображения главного меню программы
 void showMenu() {
     std::cout << "--- MENU ---" << std::endl;
     std::cout << "1. Start Program" << std::endl;
@@ -7,6 +8,7 @@ void showMenu() {
 }
 
 int main() {
-    showMenu(); // Вызов функции меню
+    std::cout << std::endl; // Отступ для читаемости
+    showMenu(); 
     return 0;
 }
