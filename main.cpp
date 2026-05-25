@@ -9,6 +9,7 @@ void showMenu() {
 
 int main() {
     std::cout << std::endl; // Отступ для читаемости
+    std::cout << "--- ТУТ БЫЛ РАЗРАБОТЧИК 2 ---" << std::endl;
     showMenu(); 
     return 0;
 }
